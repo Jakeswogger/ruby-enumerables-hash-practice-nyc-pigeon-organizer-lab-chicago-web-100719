@@ -4,12 +4,13 @@ def nyc_pigeon_organizer(data)
    b.each do |ya, ok|
     ok.each do |names|
     
-    if pigeon_list.has? names
+    if pigeon_list.key? names
+      pigeon_list[names] = {}
+     end 
     
-    end 
-  
   end 
   end 
 end
+p pigeon_list
 end
 
