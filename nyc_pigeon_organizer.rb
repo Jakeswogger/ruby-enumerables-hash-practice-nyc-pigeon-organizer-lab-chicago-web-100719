@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
    b.each do |ya, ok|
     ok.each do |names|
     
+    
     pigeon_list[names] = {}
     end 
   end 
