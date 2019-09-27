@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       if !pigeon_list[name].key? birdprimary
         pigeon_list[name][birdprimary] = []
       end 
-        pigeon_list[name][birdprimary].push(ya)
+        pigeon_list[name][birdprimary].push(ya.to_s)
   end 
   end 
 end
