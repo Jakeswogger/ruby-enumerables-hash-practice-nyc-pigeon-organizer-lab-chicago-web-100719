@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
         pigeon_list[name][birdprimary] = []
       end 
         if !pigeon_list[name][birdprimary]
-            
+          
         end
   end 
   end 
